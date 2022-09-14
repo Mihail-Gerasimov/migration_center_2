@@ -1,0 +1,155 @@
+@media (max-width: 1650px) {
+    .first__gerb {
+        max-width: 370px;
+    }
+
+    .first__man {
+        max-width: 510px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .first__gerb {
+        max-width: 315px;
+    }
+
+    .first__man {
+        max-width: 450px;
+    }
+
+    .first__main--title {
+        font-size: 45px;
+        line-height: 57px;
+    }
+
+    .first__main--description {
+        font-size: 27px;
+        line-height: 34px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .nav__main--logo-text {
+        font-size: 24px;
+    }
+
+    .nav__main--logo-text span {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .nav__main--advertising img {
+        max-width: 150px;
+    }
+
+    .first__gerb {
+        max-width: 255px;
+    }
+
+    .first__man {
+        max-width: 414px;
+    }
+
+    .first__main--title {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    .first__main--description {
+        font-size: 20px;
+        line-height: 27px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    body {
+        overflow: scroll;
+    }
+
+    main {
+        height: 100%;
+    }
+
+    .nav {
+        padding: 10px 0;
+    }
+
+    .first {
+        padding: 20px 0 52px;
+        background-size: contain;
+    }
+
+    .nav__main--advertising {
+        display: none;
+    }
+
+    .btn-nav {
+        display: none;
+    }
+
+    .btn__mobile {
+        display: block !important;
+        background-color: transparent;
+    }
+
+    .first__img {
+        display: none;
+    }
+
+    .footer__main {
+        padding: 16px 0;
+    }
+
+    .first__main--man-mobile {
+        display: block;
+        margin: 0 auto;
+        max-width: 305px;
+    }
+
+    .first__main--title {
+        margin-bottom: 15px;
+    }
+
+    .first__main--description {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 575px) {
+    .nav__main--logo img {
+        max-width: 40px;
+        margin-right: 10px;
+    }
+
+    .nav__main--logo-text {
+        font-size: 20px;
+    }
+
+    .nav__main--logo-text span {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .first__main--title {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .first__main--description {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .first__main--man-mobile {
+        max-width: 280px;
+    }
+
+    .btn {
+        background-color: #c6ac8f;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
