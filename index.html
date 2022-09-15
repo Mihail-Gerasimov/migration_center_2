@@ -45,7 +45,7 @@
         </nav>
 
         <!-- первая страница -->
-        <div class="first">
+        <div style="display:none;" class="first">
             <img class="first__img first__gerb" src="./img/1-first_step/gerb.png" alt="">
             <img class="first__img first__man" src="./img/1-first_step/man.png" alt="">
             <div class="container">
@@ -62,7 +62,94 @@
         </div>
 
         <!-- сам квиз -->
-        <div class="steps"></div>
+        <div class="steps">
+            <img class="steps__img steps__passport" src="./img/2-steps/passport.png" alt="">
+            <img class="steps__img steps__decorGerb" src="./img/2-steps/decor_gerb.png" alt="">
+
+            <div class="container">
+                <div class="steps__main">
+
+                    <div class="nav__main--advertising steps-mobile-logo">
+                        <img src="./img/general/gos.svg" alt="">
+                        <img src="./img/general/public_services.svg" alt="">
+                    </div>
+
+                    <div class="steps__main--pagination">
+                        <div class="steps__main--pagination-passed"></div>
+                        <div class="steps__main--pagination-passed"></div>
+                        <div class="steps__main--pagination-active"></div>
+                        <div class=""></div>
+                        <div class=""></div>
+                        <div class=""></div>
+                    </div>
+
+                    <h2 class="title">Обращались ли Вы ранее за помощью
+                        в оформлении документов?</h2>
+
+                    <form class="form" action="">
+                        <label for="radio" class="label-question">
+                            <input checked type="radio" name="radio" class="input-question">
+                            <p class="text-question">Да, другие родственники</p>
+                        </label>
+                        <label for="radio" class="label-question">
+                            <input type="radio" name="radio" class="input-question">
+                            <p class="text-question">Да, другие родственники</p>
+                        </label>
+                        <label for="radio" class="label-question">
+                            <input type="radio" name="radio" class="input-question">
+                            <p class="text-question">Да, другие родственники</p>
+                        </label>
+                        <label for="radio" class="label-question">
+                            <input type="radio" name="radio" class="input-question">
+                            <p class="text-question">Да, другие родственники</p>
+                        </label>
+                        <label for="radio" class="label-question">
+                            <input type="radio" name="radio" class="input-question">
+                            <p class="text-question">Да, другие родственники</p>
+                        </label>
+                        <div class="wrapper-input">
+                            <input placeholder="Введите вашу страну" class="input form__input" type="text">
+                        </div>
+                    </form>
+
+                    <div class="steps__main--btnGroup">
+                        <button class="btn-prev">Назад</button>
+                        <button class="btn steps__main--btnGroup-next">Далее</button>
+                    </div>
+                </div>
+
+                <div class="steps__argument">
+                    <div class="steps__argument--element">
+                        <img src="./img/2-steps/bot-1.svg" alt="">
+                        <p class="steps__argument--element-description">
+                            15 лет<br>опыта
+                        </p>
+                    </div>
+
+                    <div class="steps__argument--element">
+                        <img src="./img/2-steps/bot-2.svg" alt="">
+                        <p class="steps__argument--element-description">
+                            Юридическая<br>поддержка
+                        </p>
+                    </div>
+
+                    <div class="steps__argument--element">
+                        <img src="./img/2-steps/bot-3.svg" alt="">
+                        <p class="steps__argument--element-description">
+                            Гарантированный<br>соцпакет
+                        </p>
+                    </div>
+
+                    <div class="steps__argument--element">
+                        <img src="./img/2-steps/bot-4.svg" alt="">
+                        <p class="steps__argument--element-description">
+                            Оформили более<br>30 000 мигрантов
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
 
         <!-- последний шаг квиза с формой -->
         <div class="last-step"></div>
