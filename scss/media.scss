@@ -311,6 +311,15 @@
     .first__man {
         max-width: 525px;
     }
+
+    .steps__passport {
+        max-width: 238px;
+    }
+
+    .steps__decorGerb {
+        max-width: 272px;
+    }
+
 }
 
 @media screen and (max-height: 850px) {
@@ -322,6 +331,14 @@
         max-width: 412px;
     }
 
+    .title {
+        font-size: 38px;
+        line-height: 49px;
+    }
+
+    .steps__main--pagination {
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-height: 800px) {
@@ -331,5 +348,22 @@
 
     .first__man {
         max-width: 319px;
+    }
+
+    .steps__argument--element img {
+        max-width: 45px;
+    }
+
+    .steps__passport {
+        max-width: 158px;
+    }
+
+    .steps__decorGerb {
+        max-width: 157px;
+    }
+
+    .title {
+        font-size: 28px;
+        line-height: 39px;
     }
 }
