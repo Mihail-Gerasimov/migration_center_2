@@ -40,8 +40,8 @@
                     </div>
                     <!--  -->
 
-                    <button class="btn btn-nav">Оставить заявку</button>
-                    <button class="btn__mobile"><img src="./img/general/mobile.svg" alt=""></button>
+                    <button id="modal" class="btn btn-nav">Оставить заявку</button>
+                    <button id="modalMob" class="btn__mobile"><img src="./img/general/mobile.svg" alt=""></button>
                 </div>
             </div>
         </nav>
@@ -65,7 +65,7 @@
 
         <!-- сам квиз -->
         <!-- steps скрывается перед ласт степ полностью -->
-        <div style="display:none;" class="steps">
+        <div style="" class="steps">
             <img class="steps__img steps__passport" src="./img/2-steps/passport.png" alt="">
             <img class="steps__img steps__decorGerb" src="./img/2-steps/decor_gerb.png" alt="">
 
@@ -194,7 +194,7 @@
         </div>
 
         <!-- Спасибо - после квиза -->
-        <div class="thanksQuiz">
+        <div style="display:none;" class="thanksQuiz">
             <img class="thanksQuiz__chinatown" src="./img/4-thanks_quiz/chinatown.png" alt="">
 
             <h4 class="thanksQuiz__title">Спасибо за ответы!</h4>
@@ -204,7 +204,7 @@
 
         <!-- подвал -->
         <!-- подвал скрывается во время активноски thanks-quiz -->
-        <footer style="display:none;" class="footer">
+        <footer style="" class="footer">
             <div class="container">
                 <div class="footer__main">
                     <p>ИНН:2308282792</p>
@@ -214,6 +214,37 @@
         </footer>
     </main>
 
+
+    <!-- модалка -->
+
+    <div class="modal">
+        <div class="modal__dialog">
+            <img class="close" src="./img/5-thanks_modal/close.svg" alt="">
+
+            <h4 class="modal__dialog--title">Оформите заявку</h4>
+            <p class="modal__dialog--description">Для сотрудничества с нами <br>
+                оставьте свои данные</p>
+            <form class="modal__dialog--form" action="">
+                <input class="input modal__dialog--form-line" placeholder="Введите ваше имя" type="text">
+                <input class="input modal__dialog--form-line" placeholder="Введите ваше имя" type="text">
+                <input class="input modal__dialog--form-line" placeholder="Введите ваше имя" type="text">
+            </form>
+            <button class="btn modal__dialog--btn">Подать заявку</button>
+            <p class="modal__dialog--ok">Нажимая на кнопку, вы даете согласие на обработку персональных данных</p>
+        </div>
+    </div>
+
+    <!-- окно спасибо после модалки -->
+
+    <div style="display:none;" class="modal-thanks">
+        <div class="modal-main">
+            <img src="./img/5-thanks_modal/close.svg" alt="">
+            <h4 class="modal__dialog--title">Спасибо за ответы!</h4>
+            <p class="modal__dialog--description">Наш менеджер свяжется с вами <br>
+                в ближайшее время</p>
+            <img class="modal-thanks-decor" src="./img/5-thanks_modal/modal-decor.svg" alt="">
+        </div>
+    </div>
 
     <script src="./js/main.js"></script>
 </body>

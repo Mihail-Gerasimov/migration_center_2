@@ -105,6 +105,47 @@
     .thanksQuiz__chinatown {
         max-width: 437px;
     }
+
+    // 
+    .modal__dialog {
+        padding: 0 20px 30px;
+        min-height: 540px;
+        max-width: 310px;
+        justify-content: end;
+
+        img {
+            top: 20px;
+            right: 20px;
+            max-width: 15px;
+        }
+    }
+
+    .modal__dialog--title {
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 20px;
+    }
+
+    .modal__dialog--description {
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 20px;
+    }
+
+    .modal-main {
+        min-height: 330px;
+        max-width: 310px;
+    }
+
+    .modal-thanks img {
+        top: 20px;
+        right: 20px;
+        max-width: 15px;
+    }
+
+    .modal-thanks-decor {
+        max-width: 80px !important;
+    }
 }
 
 @media (max-width: 991px) {
