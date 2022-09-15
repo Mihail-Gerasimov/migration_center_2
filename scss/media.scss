@@ -14,6 +14,14 @@
     .steps__decorGerb {
         max-width: 286px;
     }
+
+    .lastStep__img {
+        max-width: 389px;
+    }
+
+    .thanksQuiz__chinatown {
+        max-width: 545px;
+    }
 }
 
 @media (max-width: 1440px) {
@@ -41,6 +49,14 @@
 
     .steps__decorGerb {
         max-width: 224px;
+    }
+
+    .lastStep__img {
+        max-width: 329px;
+    }
+
+    .thanksQuiz__chinatown {
+        max-width: 502px;
     }
 }
 
@@ -80,6 +96,14 @@
     .title {
         font-size: 39px;
         line-height: 50px;
+    }
+
+    .lastStep__img {
+        max-width: 255px;
+    }
+
+    .thanksQuiz__chinatown {
+        max-width: 437px;
     }
 }
 
@@ -180,6 +204,38 @@
         margin-bottom: 20px;
     }
 
+    .lastStep__img {
+        display: none;
+    }
+
+    .lastStep__main {
+        padding: 40px 0;
+    }
+
+    .accept {
+        margin: 10px 0 20px;
+    }
+
+    .kyrgyz-mob {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .lastStep {
+        background-position: 0 30px;
+        background-size: contain;
+    }
+
+    .thanksQuiz {
+        min-height: 660px;
+        // background-size: 600px;
+        background-size: 600px;
+        background-position: center 90px;
+    }
+
+    .thanksQuiz__chinatown {
+        max-width: 290px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -246,6 +302,36 @@
             }
         }
     }
+
+    .LastStep__main--form {
+        max-width: 100%;
+        margin: 0 auto 30px;
+    }
+
+    .thanksQuiz__title {
+        font-size: 45px;
+        line-height: 57px;
+    }
+
+    .thanksQuiz__description {
+        font-size: 22px;
+        line-height: 29px;
+        margin-bottom: 30px;
+    }
+
+    .thanksQuiz__img {
+        max-width: 70px;
+    }
+
+    .thanksQuiz__chinatown {
+        max-width: 200px;
+    }
+
+    .thanksQuiz {
+        background-size: 280px;
+        background-position: center 150px;
+        min-height: 600px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -301,6 +387,16 @@
         max-width: 135px;
     }
 
+    .thanksQuiz__title {
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 20px;
+    }
+
+    .thanksQuiz__description {
+        font-size: 15px;
+        line-height: 18px;
+    }
 }
 
 @media screen and (max-height: 900px) {
@@ -320,6 +416,13 @@
         max-width: 272px;
     }
 
+    .lastStep__img {
+        max-width: 439px;
+    }
+
+    .thanksQuiz__chinatown {
+        max-width: 537px;
+    }
 }
 
 @media screen and (max-height: 850px) {
@@ -332,12 +435,20 @@
     }
 
     .title {
-        font-size: 38px;
-        line-height: 49px;
+        font-size: 33px;
+        line-height: 42px;
     }
 
     .steps__main--pagination {
         margin-bottom: 10px;
+    }
+
+    .lastStep__img {
+        max-width: 351px;
+    }
+
+    .thanksQuiz__chinatown {
+        max-width: 437px;
     }
 }
 
@@ -363,7 +474,21 @@
     }
 
     .title {
-        font-size: 28px;
-        line-height: 39px;
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .lastStep__img {
+        max-width: 264px;
+    }
+
+    .thanksQuiz__chinatown {
+        max-width: 290px;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    .thanksQuiz__chinatown {
+        max-width: 200px;
     }
 }

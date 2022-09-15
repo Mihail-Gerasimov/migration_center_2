@@ -515,6 +515,95 @@ main {
     max-width: 405px;
 }
 
+// lastStep
+
+.lastStep {
+    position: relative;
+    background-image: url(../img/general/background-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 0;
+
+    &__img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        max-width: 474px;
+        z-index: -1;
+
+        &:first-child {
+            left: 0;
+        }
+    }
+}
+
+.LastStep__main--form {
+    display: flex;
+    flex-direction: column;
+    max-width: 405px;
+    margin: 0 auto 60px;
+}
+
+.wrapper-input:first-child {
+    margin-bottom: 25px;
+}
+
+.accept {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #383838;
+    opacity: 0.7;
+    margin-top: 15px;
+}
+
+.kyrgyz-mob {
+    display: none;
+}
+
+// thanksQuiz
+.thanksQuiz {
+    position: relative;
+    background-image: url(../img/general/background-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 0;
+    flex-direction: column;
+    justify-content: center;
+
+    &__chinatown {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        max-width: 616px;
+        z-index: -1;
+    }
+
+    &__title {
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 67px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    &__description {
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
 // footer
 .footer {
     background-color: #FFFFFF;

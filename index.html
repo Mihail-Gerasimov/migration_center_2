@@ -33,10 +33,12 @@
                         <p class="nav__main--logo-text">Миграционный<br><span>центр помощи</span></p>
                     </div>
 
+                    <!-- этот блок с Гос услугами и электронным правосудием должен появлятеся тлько на самих вопросах, дальше он сам от своих стилей будет скрываться -->
                     <div class="nav__main--advertising">
                         <img src="./img/general/gos.svg" alt="">
                         <img src="./img/general/public_services.svg" alt="">
                     </div>
+                    <!--  -->
 
                     <button class="btn btn-nav">Оставить заявку</button>
                     <button class="btn__mobile"><img src="./img/general/mobile.svg" alt=""></button>
@@ -62,13 +64,15 @@
         </div>
 
         <!-- сам квиз -->
-        <div class="steps">
+        <!-- steps скрывается перед ласт степ полностью -->
+        <div style="display:none;" class="steps">
             <img class="steps__img steps__passport" src="./img/2-steps/passport.png" alt="">
             <img class="steps__img steps__decorGerb" src="./img/2-steps/decor_gerb.png" alt="">
 
             <div class="container">
-                <div class="steps__main">
 
+                <!-- steps__main - этот блок должен копироваться в зависимотси от вопроса -->
+                <div class="steps__main">
                     <div class="nav__main--advertising steps-mobile-logo">
                         <img src="./img/general/gos.svg" alt="">
                         <img src="./img/general/public_services.svg" alt="">
@@ -152,13 +156,55 @@
         </div>
 
         <!-- последний шаг квиза с формой -->
-        <div class="last-step"></div>
+        <!-- lastStep показывается после steps -->
+        <div style="display:none;" class="lastStep">
+            <img class="lastStep__img" src="./img/3-last_step/kyrgyz.png" alt="">
+            <img class="lastStep__img" src="./img/3-last_step/businessman.png" alt="">
+
+            <div class="container">
+                <div class="lastStep__main">
+
+                    <h2 class="title">Оставьте свои контактные данные
+                        и получите срочное оформление
+                        миграционных документов</h2>
+
+                    <form class="LastStep__main--form" action="">
+                        <div class="wrapper-input">
+                            <input placeholder="Ваше имя" class="input form__input" type="text">
+                        </div>
+                        <div class="wrapper-input">
+                            <input placeholder="Ваш телефон" class="input form__input" type="text">
+                        </div>
+                    </form>
+
+                    <img class="kyrgyz-mob" src="./img/3-last_step/kyrgyz-mob.png" alt="">
+                    <div class="steps__main--btnGroup">
+                        <button class="btn-prev">Назад</button>
+                        <button class="btn steps__main--btnGroup-next">Далее</button>
+                    </div>
+
+                    <p class="accept">Нажимая на кнопку, вы даете согласие на обработку персональных данных </p>
+
+                    <div class="nav__main--advertising steps-mobile-logo">
+                        <img src="./img/general/gos.svg" alt="">
+                        <img src="./img/general/public_services.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Спасибо - после квиза -->
-        <div class="thanks-quiz"></div>
+        <div class="thanksQuiz">
+            <img class="thanksQuiz__chinatown" src="./img/4-thanks_quiz/chinatown.png" alt="">
+
+            <h4 class="thanksQuiz__title">Спасибо за ответы!</h4>
+            <p class="thanksQuiz__description">Наш юрист свяжется с вами<br>в ближайшее время</p>
+            <img class="thanksQuiz__img" src="./img/4-thanks_quiz/ok.svg" alt="">
+        </div>
 
         <!-- подвал -->
-        <footer class="footer">
+        <!-- подвал скрывается во время активноски thanks-quiz -->
+        <footer style="display:none;" class="footer">
             <div class="container">
                 <div class="footer__main">
                     <p>ИНН:2308282792</p>
